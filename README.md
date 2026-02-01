@@ -9,7 +9,7 @@ The goal of this project is to provide a clean, user-friendly interface for trac
 
 ## 🌐 Live Demo
 
-👉 https://crypto-dashboard-ten-delta.vercel.app
+👉 https://cryptodashboard-blond.vercel.app/
 
 
 ## ✨ Features
@@ -84,3 +84,5 @@ crypto-dashboard/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+
+
