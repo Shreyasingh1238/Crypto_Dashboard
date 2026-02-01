@@ -1,16 +1,81 @@
-# React + Vite
+# 🚀 Crypto Dashboard – Interactive Data Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+Crypto Dashboard is a modern, responsive web application that displays real-time cryptocurrency data using interactive charts, comparison tools, and filters.
 
-Currently, two official plugins are available:
+The goal of this project is to provide a clean, user-friendly interface for tracking crypto prices, trends, and comparisons while following scalable frontend architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+- 📊 Live cryptocurrency prices (auto-refresh every 30 seconds)
+- 📈 Interactive price chart (24h / 7d / 30d)
+- 🔍 Zoom & reset functionality on charts
+- 🔄 Compare up to 3 cryptocurrencies
+- 📉 Percentage growth comparison chart
+- 📋 Comparison statistics table
+- 🎛️ Filters:
+  - Price range filter
+  - Gainers / Losers filter
+  - Clear active filters
+- 🌗 Dark & Light mode toggle
+- 📱 Fully responsive (mobile, tablet, desktop)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧑‍💻 Tech Stack Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- **React.js** – UI library for building component-based interfaces
+- **Vite** – Fast development build tool
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **Recharts** – Charting library for data visualization
+
+### State Management
+- **React Hooks** (`useState`, `useEffect`)
+- **Context API** – for global theme (dark/light mode)
+
+### API
+- **CoinGecko API** – for real-time cryptocurrency market data
+
+### Tools & Platform
+- **Git & GitHub** – version control
+- **Vercel / Netlify** – deployment & hosting
+
+---
+
+## 📂 Project Folder Structure
+
+```text
+crypto-dashboard/
+│
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── api/
+│   │   └── coingecko.js        # API calls
+│   │
+│   ├── components/
+│   │   ├── CryptoCard.jsx
+│   │   ├── CryptoList.jsx
+│   │   ├── PriceChart.jsx
+│   │   ├── CompareChart.jsx
+│   │   ├── CompareSelector.jsx
+│   │   ├── CompareStatsTable.jsx
+│   │   └── Header.jsx
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   │
+│   ├── pages/
+│   │   └── Dashboard.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
