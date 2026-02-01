@@ -7,6 +7,11 @@ The goal of this project is to provide a clean, user-friendly interface for trac
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://crypto-dashboard-ten-delta.vercel.app
+
+
 ## ✨ Features
 - 📊 Live cryptocurrency prices (auto-refresh every 30 seconds)
 - 📈 Interactive price chart (24h / 7d / 30d)
